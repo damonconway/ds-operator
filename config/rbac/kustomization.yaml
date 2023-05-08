@@ -3,10 +3,7 @@ resources:
 - role_binding.yaml
 - leader_election_role.yaml
 - leader_election_role_binding.yaml
-# Allow users to manage directory services
-- directoryservice_editor_role.yaml
-- directoryservice_editor_rolebinding.yaml
-# backups
+# Allow users to manage backups
 - directorybackup_editor_role.yaml
 - directorybackup_editor_rolebinding.yaml
 # restores
